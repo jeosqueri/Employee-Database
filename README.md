@@ -1,19 +1,19 @@
 # sql_challenge
 
 ### 1) Data Modeling
-#### For the first step, I looked at the CSV files and created an ERD to sketch out the relationship between my different CSV files.
+For the first step, I looked at the CSV files and created an ERD to sketch out the relationship between my different CSV files.
 
 #### ERD
 ![ERD](https://user-images.githubusercontent.com/69160361/98862982-f69f7500-2424-11eb-8111-aa66622d2bdd.png)
 
 ### 2) Data Engineering
-#### A table schema was created for each of the six CSV files. These schemas were created with the same file/column names as the CSVs to make importing simple. This schema can be found in the 'schema.sql' file.
+ A table schema was created for each of the six CSV files. These schemas were created with the same file/column names as the CSVs to make importing simple. This schema can be found in the 'schema.sql' file.
 
 ### 3) Data Analysis
-#### For data analysis, I conducted eight queries to get different information from the six tables. These queries can be found in the 'Queries.sql' file.
+For data analysis, I conducted eight queries to get different information from the six tables. These queries can be found in the 'Queries.sql' file.
 
 ### Bonus Section
-#### For the bonus section, I imported my SQL database into Pandas to create two different charts to visualize my data. Before connecting to my database, I created two additional tables using SQL joins to extract the relevant information I needed to create my charts. The schemas for these two additional tables can be found in the 'Bonus' folder in the 'Bonus.sql' file, and the jupyter notebook I used can also be found in the 'Bonus' folder.
+For the bonus section, I imported my SQL database into Pandas to create two different charts to visualize my data. Before connecting to my database, I created two additional tables using SQL joins to extract the relevant information I needed to create my charts. The schemas for these two additional tables can be found in the 'Bonus' folder in the 'Bonus.sql' file, and the jupyter notebook I used can also be found in the 'Bonus' folder.
 
 #### Histogram: Most Common Salary Ranges for Employees
 
