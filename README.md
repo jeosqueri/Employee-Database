@@ -4,7 +4,7 @@
 For the first step, I looked at the CSV files and created an ERD to sketch out the relationship between my different CSV files.
 
 #### ERD
-![ERD](https://user-images.githubusercontent.com/69160361/98862982-f69f7500-2424-11eb-8111-aa66622d2bdd.png)
+![ERD](https://user-images.githubusercontent.com/69160361/103425038-f1c98880-4b6c-11eb-8668-4dc2564f404e.png)
 
 ### 2) Data Engineering
  A table schema was created for each of the six CSV files. These schemas were created with the same file/column names as the CSVs to make importing simple. This schema can be found in the 'schema.sql' file.
